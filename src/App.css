@@ -1,0 +1,244 @@
+body {
+  color: #333333;
+  font-family: "Arial MT";
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+#App {
+  margin: auto;
+  width: 100%;
+  min-height: 920px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+#root{
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+.wrapper_info {
+  margin-bottom: 34px;
+  width: 100%;
+}
+.info {
+  position: relative;
+  height: 121px;
+  margin: 16px 0 0 19px;
+}
+.info_image {
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  width: 120px;
+  height: 120px;
+}
+.info_container {
+  width: 50vw;
+  min-width: 180px;
+  height: 121px;
+  position: absolute;
+  left: 75px;
+}
+.info_about {
+  position: absolute;
+  left: 45px;
+  top: 9px;
+  width: 149px;
+  height: 34px;
+}
+.info_name {
+  font-family: "Arial - Bold MT";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.info_job-title {
+  font-family: "Arial MT";
+}
+.info_slogan {
+  position: absolute;
+  font-family: "Arial MT";
+  font-weight: 400;
+  line-height: 20px;
+  padding: 12px 3px 9px 46px;
+  box-shadow: 0 0 0 1px rgba(60, 44, 0, 0.25);
+  background: #fffbc8;
+  top: 52px;
+}
+
+.statistic {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.statistic_header {
+  margin-right: 33px;
+}
+.statistic_header-text {
+  font-family: "Arial MT";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.statistic_graph {
+  position: relative;
+  margin-top: 7px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 108px;
+}
+.graph-image {
+  border-left: 1px solid black;
+  margin-top: 15px;
+  height: 76px;
+  width: 60%;
+}
+.graph_container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 21px;
+  left: 7px;
+  width: 88%;
+  height: 74px;
+}
+.graph_container-text {
+  font-size: 13px;
+  height: 33%;
+  font-family: "Arial MT";
+  font-weight: 400;
+}
+.numbers {
+  text-align: right;
+  font-family: "Arial MT";
+}
+.statistic_total {
+  width: 220px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: -webkit-flex;
+  margin-right: 33px;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.total-text,
+.header_likes,
+.header_comments,
+.header_wrapper-text,
+.header_wrapper-icon {
+  display: flex;
+  align-items: flex-end;
+}
+.feedback {
+  width: 100%;
+  height: 17px;
+  padding: 19px;
+
+}
+.feedback_header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header_last-feedbacks {
+  font-family: "Arial - Bold MT";
+  font-size: 16px;
+  line-height: 16px;
+  height: 14px;
+  width: 153px;
+}
+.header_all-feedbacks {
+  color: #005da1;
+  font-family: "Arial MT";
+  text-decoration: underline;
+}
+
+.header_comments {
+  margin-left: 12px;
+}
+.form {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 194px;
+  min-width: 302px;
+  max-width: 720px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+#message {
+  margin: 29px auto 0 auto;
+  height: 65px;
+  width: 92.3%;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.44),
+    inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid #000000;
+}
+#button {
+  background-color: #fdd639;
+  height: 43px;
+  width: 58%;
+  margin: 22px auto 0 auto;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0;
+  border: none;
+}
+.messages {
+  margin-bottom: 210px;
+}
+.messages_miss {
+  height: 139px;
+  max-width: 703px;
+}
+.messages_miss-text {
+  text-align: center;
+  padding-top: 60px;
+}
+.messages_block {
+  width: 76%;
+  margin: 20px;
+  max-width: 527px;
+  min-width: 280px;
+}
+.messages_block-container {
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #f2fbff;
+  width: 100%;
+  border: 1px solid black;
+}
+.messages_block-name {
+  display: flex;
+  margin-bottom: 10px;
+}
+.messages_block-header {
+  margin-right: 10px;
+  font-family: "Arial - Bold MT";
+  font-size: 14px;
+}
+.messages_block-date {
+  align-self: flex-end;
+  font-family: Arial;
+  font-size: 11px;
+}
+.messages_block-text {
+  font-family: Arial;
+  margin: 10px auto;
+  width: 77%;
+}
